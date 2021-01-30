@@ -1,0 +1,58 @@
+h1 {
+    color: #20cccc;
+    margin-left:50px;
+}
+
+.school{
+    background-color: #50cc50;
+    display:flex;
+    justify-content: space-between;
+
+}
+.block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+p, h2{
+    text-align: center;
+    color: #cc20cc
+}
+.hat{
+    display: flex;
+    justify-content: flex-end;
+}
+.school *{
+    border: solid;
+}
+.horse {
+    margin-right: 50px;
+}
+.horse a {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+a:link{
+    color: red
+}
+a:visited{
+    color: purple
+}
+
+.item{
+    position: relative;
+}
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.item:hover p{
+    opacity:1;
+}
+.item:hover img{
+    opacity:0.6;
+    transform:scale(0.5)
+}
